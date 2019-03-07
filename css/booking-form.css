@@ -20,7 +20,6 @@
 .form-item{
 	font-family: MONTSERRAT;
 	height: 50px;
-	border-radius: 4px;
 }
 .form-item-1, .form-item-2{
 	width: 250px;
@@ -35,12 +34,16 @@
 	color: white;
 }
 @media only screen and (max-width:1000px){
+	.quick-booking-form{
+		border-radius: 10px;
+	}
 	.form-item{
 		align-content: space-between;
 		height: 120px;
 		width: 870px;
 		font-size: 35px;
 		margin-top: 15px;
+		border-radius: 10px;
 	}
 	.quick-booking-form{
 		width: 910px;
